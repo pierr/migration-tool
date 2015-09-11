@@ -1,6 +1,6 @@
 {
   "name": "migration-tool",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Migration tool",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/pierr/migration-tool/issues"
   },
-  "homepage": "https://github.com/pierr/migration-tool#readme"
+  "homepage": "https://github.com/pierr/migration-tool#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "node-dir": "^0.1.9",
+    "object-assign": "^4.0.1"
+  }
 }
