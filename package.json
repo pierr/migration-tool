@@ -1,0 +1,23 @@
+{
+  "name": "migration-tool",
+  "version": "1.0.0",
+  "description": "Migration tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierr/migration-tool.git"
+  },
+  "keywords": [
+    "release",
+    "migration"
+  ],
+  "author": "Pierre Besson <pierre.besson7+npm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierr/migration-tool/issues"
+  },
+  "homepage": "https://github.com/pierr/migration-tool#readme"
+}
