@@ -1,8 +1,9 @@
+/* global require */
 var pick = require('lodash');
 var dir = require('node-dir');
 var assign = require('object-assign');
 var fs = require('fs');
-var toCheck = [/\.common\.button\.action/, /button/, /\.common\.icon/, /icon/];
+var toCheck = [/col-/, /\.common\.button\.action/, /button/, /\.common\.icon/, /icon/];
 var errors = {};
 function _createMigrationReport(data, outputFilename){
     fs.writeFile(outputFilename, JSON.stringify(data, null, 4), function(err) {
